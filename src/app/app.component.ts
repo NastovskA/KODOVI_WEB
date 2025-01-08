@@ -1,27 +1,18 @@
 import { Component } from '@angular/core';
+import {ARTISTS} from '../db-data';
+import { ArtistComponent } from './artist/artist.component';
+import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { CompComponent } from "./comp/comp.component";
-import { DRIVERS } from '../db-data'; 
-import { CommonModule } from '@angular/common';  
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CompComponent, CommonModule],
+  imports: [ArtistComponent,CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'test';
+  
+  artistList = ARTISTS;
 
-  PB = DRIVERS[0];
-
-  JM = DRIVERS[1];
-
-  MM = DRIVERS[2];
-
-  vozaci = DRIVERS;
-
-  onAppView(){
-    console.log("APP E F-ja")
-  }
 }

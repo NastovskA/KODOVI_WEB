@@ -1,48 +1,97 @@
 
 
-export const DRIVERS: any = [
+export const ARTISTS: any = [
 
     {
-        id: 1,
-        name: "Peco",
-        //iconUrl: 'https://resources.motogp.pulselive.com/photo-resources/2024/02/19/3a568eee-1e12-4091-b120-f53c71cbe8f6/rider-bio_francescobagnaia.png?height=400&width=600',
-        team: "Ducati",
-        category: 'EXPERT',
-        points: 100
-    },
-    {
-        id: 2,
-        name: "Jorje Martin",
-        iconUrl: 'https://resources.motogp.pulselive.com/photo-resources/2024/11/19/24001b82-1348-4f36-adc4-4701d07ea673/89-Jorge-Martin.png?height=400&width=600',
-        team: "Aprilia",
-        category: 'EXPERT',
-        points: 210
-    },
-    {
-        id: 3,
-        name: "MM93",
-        iconUrl: 'https://resources.motogp.pulselive.com/photo-resources/2024/11/19/a4f43356-42bc-4c85-a659-682d9c68cfc6/93-Marc-Marquez.png?height=400&width=600',
-        team: "Gresini",
-        category: 'LUNATIC',
-        points: 310
-    },
-    {
-        id: 4,
-        name: "JZ",
-        iconUrl: 'https://resources.motogp.pulselive.com/photo-resources/2024/02/19/804f0106-d53b-4052-bbd4-23e41f093ae6/rider-bio_johannzarco.png?height=400&width=600',
-        team: "LCR HONDA",
-        category: 'ASD',
-        points: 10
+        standings: 1,
+        name: "Aretha Franklin",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/1-aretha-franklin-respect.jpeg?w=306',
+        song: "Respect",
+        label: 'Atlantic',
+        year: 1969
     },
 
     {
-        id: 5,
-        name: "Bla",
-        iconUrl: 'https://resources.motogp.pulselive.com/photo-resources/2024/02/19/804f0106-d53b-4052-bbd4-23e41f093ae6/rider-bio_johannzarco.png?height=400&width=600',
-        team: "dm dm",
-        category: 'haj',
-        points: 10
+        standings: 2,
+        name: "Public Enemy",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/2-public-enemy-fight-the-power.jpeg?w=306',
+        song: "Fight the Power",
+        label: 'Republic',
+        year: 1989
     },
-    
+
+    {
+        standings: 3,
+        name: "Sam Cooke",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/3-sam-cooke-a-change-is-gonna-come.jpeg?w=306',
+        song: "A Change Is Gonna Come",
+        label: 'RCA Records',
+        year: 1964
+    },
+
+    {
+        standings: 4,
+        name: "Bob Dylan",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/4-bob-dylan-like-a-rolling-stone.jpeg?w=306',
+        song: "Like a Rolling Stone",
+        label: 'Republic',
+        year: 1965
+    },
+
+    {
+        standings: 5,
+        name: "Nirvana",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/5-nirvana-smells-like-teen-spirit.jpeg?w=306',
+        song: "Smells Like Teen Spirit",
+        label: 'N/A',
+        year: 1991
+    },
+
+    {
+        standings: 6,
+        name: "Marvin Gaye",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/6-marvin-gaye-whats-going-on.jpeg?w=306',
+        song: "What’s Going On",
+        label: 'Columbia Records',
+        year: 1971
+    },
+
+    {
+        standings: 7,
+        name: "The Beatles",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/7-beatles-strawberry-fields.jpeg?w=306',
+        song: "Strawberry Fields Forever",
+        label: 'Warner Bros.',
+        year: 1967
+    },
+
+    {
+        standings: 8,
+        name: "Missy Elliott",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/8-missy-elliott-get-ur-freak-on.jpeg?w=400',
+        song: "Get Ur Freak On",
+        label: 'Republic',
+        year: 2001
+    },
+
+    {
+        standings: 9,
+        name: "Fleetwood Mac",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/009-fleetwood-mac-dreams.jpg?w=800',
+        song: "Dreams",
+        label: 'Republic',
+        year: 1977
+    },
+
+    {
+        standings: 10,
+        name: "Outkast",
+        iconUrl: 'https://www.rollingstone.com/wp-content/uploads/2021/09/10-outkast-hey-ya.jpeg?w=306',
+        song: "Hey Ya!",
+        label: 'Republic',
+        year: 2003
+    },
 
 ];
+
+

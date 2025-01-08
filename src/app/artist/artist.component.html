@@ -1,0 +1,26 @@
+<div *ngIf="artist">
+
+<div class="artist">
+
+  <div class="name">
+    {{indeks + "." + artist?.name}}
+  </div>
+
+  <img width="300" alt="Artist Image"
+  [src]='artist?.iconUrl'>
+
+  <div class="song">
+    {{artist?.song}}
+  </div>
+
+  <div>
+    Record Label: {{artist?.label}}
+  </div>
+
+  <div>
+    Year: {{artist?.year}}
+  </div>
+
+</div>
+
+</div>
